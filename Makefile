@@ -1,7 +1,17 @@
-#.PHONY: clean
-## Remove temporary build files
-#clean:
-#	${MAKE} -C build clean
+.PHONY: serve
+## Serve the page with live reload
+serve:
+	uv run -- python -m mkdocs serve
+
+.PHONY: build
+## Build the page
+build:
+	uv run -- python -m mkdocs serve
+
+.PHONY: clean
+## Clean cache etc.
+clean:
+	echo "Not supported"
 
 # Plonk the following at the end of your Makefile
 .DEFAULT_GOAL := show-help
