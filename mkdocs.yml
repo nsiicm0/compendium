@@ -1,5 +1,5 @@
 site_name: Compendium
-site_url: https://nsiicm0.github.io/compendium/
+site_url: https://compendium.simmler.io/
 plugins:
   - search
   - blog
