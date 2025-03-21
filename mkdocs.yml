@@ -1,5 +1,10 @@
 site_name: Compendium
 site_url: https://compendium.simmler.io/
+nav:
+  - Home: index.md
+  - Data Structures: data_structures.md
+  - Math: math.md
+  - Links: links.md
 plugins:
   - search
   - blog
